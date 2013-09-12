@@ -9,6 +9,8 @@ gem 'sqlite3'
 gem 'rspec-rails'
 gem 'capybara'
 gem 'bootstrap-sass'
+#gem 'bcrypt-ruby', '3.1.2'
+#gem 'bcrypt-ruby'
 #gem 'selenium-webdriver'
 
 # Gems used only for assets and not required
@@ -26,7 +28,7 @@ end
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt-ruby', '~> 3.0.0'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
