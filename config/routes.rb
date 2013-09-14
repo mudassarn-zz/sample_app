@@ -1,5 +1,7 @@
 SampleApp::Application.routes.draw do
 
+  resources :users
+
   root to: 'StaticPages#home'  
   match '/home', to: 'StaticPages#home', via: 'get'
   match '/help', to: 'StaticPages#help', via: 'get'
